@@ -1,3 +1,19 @@
+# SSB Test
+
+## Disclaimer
+
+This project was created in about a 2/2.5 hour timeframe, the code quality is not great or perfect, and there may be bugs.
+This is also not meant to display my UI expertise, as it's just getting information onto a page, I wasn't trying to make it look nice.
+
+## Features
+
+This makes use of the [random joke api](https://sv443.net/jokeapi/v2/) which has its own limitations.
+
+- You can search based on keywords, categories, or number of jokes
+- You can view graphs for categories, types, and if they are twoparts or single.
+- You can edit jokes, or for twoparts both the setup and delivery.
+- The data get's saved in session storage to mock the use of a database, since this isn't a write API, if you start a new session, your data will not be saved.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
