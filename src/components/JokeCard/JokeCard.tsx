@@ -124,8 +124,8 @@ export const JokeCard: React.FC<JokeCardProps> = ({
       newFlags = { ...joke.flags, nsfw: value };
     } else if (flag === "political") {
       newFlags = { ...joke.flags, political: value };
-    } else if (flag === "religous") {
-      newFlags = { ...joke.flags, religous: value };
+    } else if (flag === "religious") {
+      newFlags = { ...joke.flags, religious: value };
     }
 
     const newJoke = { ...joke, flags: newFlags };
@@ -156,11 +156,11 @@ export const JokeCard: React.FC<JokeCardProps> = ({
             )}
           </Flag>
         )}
-        {joke.flags.religous && (
+        {joke.flags.religious && (
           <Flag>
-            religous{" "}
+            religious{" "}
             {showEdit && (
-              <DeleteButton onClick={() => removeFlag("religous", false)}>
+              <DeleteButton onClick={() => removeFlag("religious", false)}>
                 x
               </DeleteButton>
             )}

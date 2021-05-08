@@ -11,7 +11,7 @@ export type JokeType = "single" | "twopart";
 
 export interface Flags {
   nsfw: boolean;
-  religous: boolean;
+  religious: boolean;
   political: boolean;
 }
 

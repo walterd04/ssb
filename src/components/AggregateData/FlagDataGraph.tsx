@@ -12,7 +12,7 @@ export const FlagDataGraph: React.FC<FlagDataGraphProps> = ({
 }: FlagDataGraphProps) => {
   const [nsfw, setNsfw] = useState<number>(0);
   const [political, setPolitical] = useState<number>(0);
-  const [religous, setReligous] = useState<number>(0);
+  const [religious, setreligious] = useState<number>(0);
 
   useEffect(() => {
     let numNsfw = 0;
@@ -28,22 +28,22 @@ export const FlagDataGraph: React.FC<FlagDataGraphProps> = ({
         numPoli++;
       }
 
-      if (flags.religous) {
+      if (flags.religious) {
         numReli++;
       }
     });
 
     setNsfw(numNsfw);
     setPolitical(numPoli);
-    setReligous(numReli);
+    setreligious(numReli);
   }, [jokes]);
 
   const data = {
-    labels: ["nsfw", "political", "religous"],
+    labels: ["nsfw", "political", "religious"],
     datasets: [
       {
         label: [""],
-        data: [nsfw, political, religous],
+        data: [nsfw, political, religious],
         backgroundColor: ["#566d76", "#ea31ca", "#cbfe5a"],
       },
     ],

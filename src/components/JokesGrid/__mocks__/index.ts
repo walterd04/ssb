@@ -9,7 +9,7 @@ export const jokes: Joke[] = [
     delivery: 'In the end you ignore everything and click "I agree".',
     flags: {
       nsfw: false,
-      religous: false,
+      religious: false,
       political: false,
     },
     id: 71,
@@ -23,7 +23,7 @@ export const jokes: Joke[] = [
     delivery: "A meowntain.",
     flags: {
       nsfw: false,
-      religous: false,
+      religious: false,
       political: false,
     },
     id: 130,
