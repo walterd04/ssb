@@ -1,3 +1,81 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+strong {
+  font-weight: bold;
+}
+ol,
+ul,
+menu {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+*[hidden] {
+  display: none;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  background: transparent;
+  font-size: 100%;
+}
+button {
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  user-select: none;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+a {
+  font-weight: bold;
+  color: inherit;
+}
+
 .App {
   text-align: center;
 }
@@ -15,7 +93,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;

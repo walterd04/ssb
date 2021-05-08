@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI Tests Should render without crashing, matches snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-jrsJWt bXuSqb"
+    >
+      <div
+        class="sc-bdnxRM kUkMNW"
+      >
+        <div
+          class="sc-gtsrHT KZcwU"
+        >
+          <h2
+            class="sc-dlnjwi dknzix"
+          >
+            Misc
+          </h2>
+        </div>
+        <div
+          class="sc-gtsrHT KZcwU"
+        >
+          <img
+            alt="red x mark"
+            class="sc-eCApnc hKxami"
+            src="unsafe.svg"
+            title="not safe"
+          />
+          <div
+            class="sc-gKAaRy fJEFyC"
+          >
+            <p
+              class="sc-jSFjdj bEexGY"
+            >
+              Arguing with a woman is like reading a software's license agreement.
+            </p>
+            <p
+              class="sc-jSFjdj bEexGY"
+            >
+              In the end you ignore everything and click "I agree".
+            </p>
+          </div>
+        </div>
+        <button
+          class="sc-fujyAs fnDpAK"
+          type="button"
+        >
+          Edit Joke
+        </button>
+      </div>
+      <div
+        class="sc-bdnxRM kUkMNW"
+      >
+        <div
+          class="sc-gtsrHT KZcwU"
+        >
+          <h2
+            class="sc-dlnjwi dknzix"
+          >
+            Pun
+          </h2>
+        </div>
+        <div
+          class="sc-gtsrHT KZcwU"
+        >
+          <img
+            alt="green checkmark"
+            class="sc-eCApnc hKxami"
+            src="safe.svg"
+            title="safe"
+          />
+          <div
+            class="sc-gKAaRy fJEFyC"
+          >
+            <p
+              class="sc-jSFjdj bEexGY"
+            >
+              What do you call a pile of kittens?
+            </p>
+            <p
+              class="sc-jSFjdj bEexGY"
+            >
+              A meowntain.
+            </p>
+          </div>
+        </div>
+        <button
+          class="sc-fujyAs fnDpAK"
+          type="button"
+        >
+          Edit Joke
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+`;

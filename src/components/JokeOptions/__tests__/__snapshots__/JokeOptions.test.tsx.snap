@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI tests Renders without crashing, matches snapshot 1`] = `
+<body>
+  <div>
+    <form
+      class="sc-iCoGMd kjJNYD"
+    >
+      <h1
+        class="sc-fujyAs rtCbP"
+      >
+        Welcome to the Random Joke Generator
+      </h1>
+      <div
+        class="sc-pNWdM fVBpuy"
+      >
+        <div
+          class="sc-jrsJWt hUOEHJ"
+        >
+          <label
+            class="sc-kEqXSa krhUiH"
+            for="typeDropdown"
+          >
+            Select Type of Joke:
+          </label>
+          <div>
+            <div
+              class="sc-bdnxRM cPpaHS"
+            >
+              <select
+                data-testid="hidden-select"
+                id="typeDropdown"
+                name="typeDropdown"
+              >
+                <option
+                  value="Programming"
+                >
+                  Programming
+                </option>
+                <option
+                  value="Misc"
+                >
+                  Misc
+                </option>
+                <option
+                  value="Dark"
+                >
+                  Dark
+                </option>
+                <option
+                  value="Pun"
+                >
+                  Pun
+                </option>
+                <option
+                  value="Spooky"
+                >
+                  Spooky
+                </option>
+                <option
+                  value="Christmas"
+                >
+                  Christmas
+                </option>
+                <option
+                  value="Any"
+                >
+                  Any
+                </option>
+              </select>
+            </div>
+            <div
+              class="sc-gtsrHT fQehCQ"
+            >
+              <div
+                class="sc-dlnjwi bjIcPs"
+                data-testid="visual-select"
+                tabindex="0"
+                title="Any"
+              >
+                <div
+                  class="sc-eCApnc fvAlHL"
+                >
+                  Any
+                  <img
+                    alt="arrow down"
+                    class="sc-gKAaRy iNTfcQ"
+                    src="caret.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-jrsJWt hUOEHJ"
+        >
+          <label
+            class="sc-kEqXSa krhUiH"
+            for="numJokes"
+          >
+            Number of Jokes:
+          </label>
+          <input
+            id="numJokes"
+            type="number"
+            value="10"
+          />
+        </div>
+        <div
+          class="sc-jrsJWt hUOEHJ"
+        >
+          <label
+            class="sc-kEqXSa krhUiH"
+          >
+            Keyword(s):
+          </label>
+          <input
+            id="keywords"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="sc-iqAclL ZboMr"
+      >
+        <button
+          class="sc-crzoAE fwNbVa"
+          data-testid="get-jokes-button"
+          type="submit"
+        >
+          Get Jokes
+        </button>
+        <button
+          class="sc-crzoAE fwNbVa"
+        >
+          Toggle Graphs/Jokes
+        </button>
+      </div>
+    </form>
+  </div>
+</body>
+`;
